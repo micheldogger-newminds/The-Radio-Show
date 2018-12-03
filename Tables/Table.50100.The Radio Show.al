@@ -1,20 +1,18 @@
 
 
-table id MyTable
+table 50100 "Radio Show"
 {
-    DataClassification = ToBeClassified;
     
     fields
     {
-        field(1;MyField;Integer)
+        field(1;Code;Code[20])
         {
-            DataClassification = ToBeClassified;
         }
     }
 
     keys
     {
-        key(PK;MyField)
+        key(PK;Code)
         {
             Clustered = true;
         }
